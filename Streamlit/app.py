@@ -230,7 +230,7 @@ def main():
             spec = create_spectrogram(uploaded_file.name)
 
         with st.spinner("Loading Model & Making Prediction..."):
-            model = tf.keras.models.load_model('saved_model/model')
+            model = tf.keras.models.load_model('Streamlit\saved_model\model')
             class_label, prediction = predictions(spec, model)
 
         # Create a styled prediction result box
