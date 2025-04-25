@@ -81,7 +81,7 @@ pillow==11.0.0
 platformdirs==4.3.6
 pooch==1.8.2
 prompt_toolkit==3.0.48
-protobuf==3.19.6 
+protobuf==3.19.6
 psutil==6.1.0
 pure_eval==0.2.3
 pyarrow==19.0.1
@@ -94,7 +94,6 @@ pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pytz==2025.1
 PyWavelets==1.6.0
-pywin32==308
 pyzmq==26.2.0
 referencing==0.36.2
 requests==2.32.3
@@ -116,7 +115,7 @@ tenacity==9.0.0
 tensorboard==2.11.2
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.11.0  
+tensorflow==2.11.0
 tensorflow-estimator==2.11.0
 tensorflow-intel==2.11.0
 tensorflow-io-gcs-filesystem==0.31.0
