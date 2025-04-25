@@ -230,9 +230,7 @@ def main():
             spec = create_spectrogram(uploaded_file.name)
 
         with st.spinner("Loading Model & Making Prediction..."):
-            model = tf.keras.models.load_model(
-                r'C:\Users\rajee\Downloads\Deepfake-Audio-Detection-with-XAI-main\Deepfake-Audio-Detection-with-XAI-main\Streamlit\saved_model\model'
-            )
+            model = tf.keras.models.load_model('saved_model/model')
             class_label, prediction = predictions(spec, model)
 
         # Create a styled prediction result box
